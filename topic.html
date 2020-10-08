@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статья</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header topic-header">
+        <nav class="header-nav container">
+            <img class="header-logo" src="img/logo.png" alt="logo">
+            <ul>
+                <li><a href="index.html#topics">Статьи</a></li>
+                <li><a href="index.html#about-me">Обо мне</a></li>
+                <li><a href="index.html#portfolio">Портфолио</a></li>
+                <li><a href="index.html#mail-me">Написать мне</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="topic">
+            <h1 class="topic-heading">Как себя мотивировать</h1>
+            <div class="topics-small-info topic-info">
+                <div>Теги: <a href="">путешествия</a>, <a href="">друзья</a></div>
+                <div class="topic-date">29.09.2020</div>
+            </div>
+            <p class="topic-text">
+                Расскажу о биопсихологической теории личности Джеффри Грея, которая помогла мне разобраться в работе мотивационных&nbsp;стимулов. Узнала я о ней из книги «Воля и самоконтроль. Как гены и мозг мешают нам бороться
+                с&nbsp;соблазнами» Ирины Якутенко.<br><br>                
+                Согласно этой теории, человеческое поведение контролируют две системы: BAS (Behavior Activation System) и BIS (Behavior Inhibition System), 
+                каждая из них обусловлена генетически. Грей использовал её для понимания того, как вознаграждение или&nbsp;наказание связаны с беспокойством и импульсивностью. Самое интересное, что активность этих систем у людей различна. 
+                Зная, какая из них доминирует, можно понять, какие стимулы использовать для эффективной мотивации.
+            </p>
+            <img src="img/motivation-img.jpg" alt="motivation">
+            <p class="topic-text img-description">
+                Моё поведение регулируется больше BAS, поэтому при планировании целей я всегда использую позитивный стимул.
+            </p>
+            <p class="topic-text">
+                BAS (Behavior Activation System) работает на ощущение позитивных эмоций. Мотивация людей, чье поведение в основном определяется этой системой, направлена на получение вознаграждения. Они стремятся получить одобрение и награду
+за&nbsp;свои действия. Такие люди более мотивированы в учебе и развитии разных навыков. Однако носители активной BAS склонны к импульсивности и желанию немедленного вознаграждения, что может мешать долгосрочной работе.
+<br>BIS (Behavior Inhibition System) ответственна за избегающее поведение. Люди с этой активной системой мотивируются стремлением избежать проблем. Они более чувствительны к наказанию и новому опыту, а также стремятся избежать ситуаций, когда чувствуют, что могут потерпеть неудачу.<br><br>
+Определив, к какому типу относится поведение, вы узнаете, какие стимулы использовать для достижения поставленной цели. Например, я решила выучить английский — само изучение не является целью, поэтому нужно правильно
+её&nbsp;сформулировать. Если моё поведение регулируется BAS, мне нужно выбрать своей конечной целью какую-то награду: например, если я выучу английский, то смогу смотреть фильмы в оригинале. Если же я склонна к BIS поведению, целью нужно выбрать избежание проблем: если я заговорю на английском, то не потеряюсь в новой стране. И это можно использовать в различных сферах жизни.
+            </p>
+            <div class="social">
+                <div class="social-item like"></div>
+                <div class="likes-counter">16</div>
+                <a href=""><div class="social-item twitter"></div></a>
+                <a href=""><div class="social-item fb"></div></a>
+                <a href=""><div class="social-item vk"></div></a>
+            </div>
+            <a class="all-topics-link" href="index.html#topics">Ко всем статьям</a>
+        </section>
+        <section class="comments">
+            <h2 class="visually-hidden">Комментарии</h2>
+            <div class="comment-list">
+                <div class="comment-author">
+                    <img class="comment-author-avatar" src="img/avatar1.jpg" alt="Avatar">
+                    <span class="comment-author-name">Иван Петров</span>
+                </div>
+                <p class="comment-text">Отличная статья! Спасибо.</p>
+                <div class="comment-author">
+                    <img class="comment-author-avatar" src="img/avatar2.jpg" alt="Avatar">
+                    <span class="comment-author-name">Ксения Ксения</span>
+                </div>
+                <p class="comment-text">Отличный текст, добавила в закладки.</p>
+                <div class="comment-author">
+                    <img class="comment-author-avatar" src="img/avatar3.jpg" alt="Avatar">
+                    <span class="comment-author-name">Иван Иванов</span>
+                </div>
+                <p class="comment-text">Основательный материал! Можешь посоветовать какие-то книги на эту тему?</p>
+            </div>
+            <p class="leave-comment">Оставить комментарий</p>
+            <form class="comment-form">
+                <div class="comment-form-column">
+                    <input class="comment-form-name" type="text" name="name" required placeholder="Имя">
+                    <input class="comment-form-mail" type="Email" name="mail" required placeholder="Почта">
+                    <input class="comment-form-btn" type="submit" value="Отправить">
+                </div>
+                <textarea class="comment-form-textarea" name="comment" placeholder="Написать комментарий..."></textarea>
+                <div class="comment-error visually-hidden">От 10 до 200 символов!</div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav>
+            <ul class="footer-nav">
+                <li class="footer-nav-item"><a href="">ВК</a></li>
+                <li class="footer-nav-item"><a href="">Телеграм</a></li>
+                <li class="footer-nav-item"><a href="">Инстаграм</a></li>
+                <li class="footer-nav-item"><a href="">Твиттер</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="likes.js"></script> 
+    <script src="comment.js"></script> 
+</body>
+</html>

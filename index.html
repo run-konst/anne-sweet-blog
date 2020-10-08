@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav container">
+            <img class="header-logo" src="img/logo.png" alt="logo">
+            <ul>
+                <li><a href="#topics">Статьи</a></li>
+                <li><a href="#about-me">Обо мне</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#mail-me">Написать мне</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="visually-hidden">Блог</h1>
+        <section class="topics container" id="topics">
+            <div class="topics-header">
+                <h2 class="topics-heading">Все статьи</h2>
+                <div class="topic-menu">
+                    <a class="topic-select" href="#">Выбрать тему</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="" class="dropdown-item-link" data-tag="travel">Путешествия</a></li>
+                        <li class="dropdown-item"><a href="" class="dropdown-item-link" data-tag="city">Город</a></li>
+                        <li class="dropdown-item"><a href="" class="dropdown-item-link" data-tag="books">Книги</a></li>
+                        <li class="dropdown-item"><a href="" class="dropdown-item-link" data-tag="photo">Фотографии</a></li>
+                        <li class="dropdown-item"><a href="" class="dropdown-item-link" data-tag="recipe">Рецепты</a></li>
+                        <li class="dropdown-item"><a href="" class="dropdown-item-link" data-tag="all">Все статьи</a></li>
+                    </ul>                    
+                </div>
+            </div>
+            <div class="topics-small">
+                <article class="topics-item topics-small-item" data-tag="travel">
+                    <img class="topics-small-img" src="img/topic-berlin.jpg" alt="Berlin">
+                    <h3 class="topics-small-heading"><a href="topic.html">Путешествие в Берлин в августе</a></h3>
+                    <p class="topics-small-description">Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
+                    <div class="topics-small-info">
+                        <div>Теги: <a href="">путешествия</a></div>
+                        <div>29.09.2020</div>
+                    </div>
+                </article>
+                <article class="topics-item topics-small-item" data-tag="city">
+                    <img class="topics-small-img" src="img/topic-coldbrew.jpg" alt="coldbrew">
+                    <h3 class="topics-small-heading"><a href="topic.html">Где выпить колдбрю в Москве</a></h3>
+                    <p class="topics-small-description">Собрала для вас список любимых кофеен, где&nbsp;подают лучший летний напиток.</p>
+                    <div class="topics-small-info">
+                        <div>Теги: <a href="">город</a></div>
+                        <div>24.07.2020</div>
+                    </div>
+                </article>
+                <article class="topics-item topics-small-item" data-tag="books">
+                    <img class="topics-small-img" src="img/topic-book.jpg" alt="books">
+                    <h3 class="topics-small-heading"><a href="topic.html">Прочитано: книжные рекомендации</a></h3>
+                    <p class="topics-small-description">Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+                    <div class="topics-small-info">
+                        <div>Теги: <a href="">книги</a></div>
+                        <div>15.07.2020</div>
+                    </div>
+                </article>
+            </div>
+            <div class="topics-large">
+                <article class="topics-item topics-large-item" data-tag="photo">
+                    <img class="topics-large-img" src="img/topic-photo.jpg" alt="photos">
+                    <h3 class="topics-large-heading"><a href="topic.html">Снимки на плёнку</a></h3>
+                    <p class="topics-large-description">Поделилась с вами весенними фотографиями, и&nbsp;секретами удачных снимков.</p>
+                    <div class="topics-large-info">
+                        <div>Теги: <a href="">фотографии</a></div>
+                        <div>29.06.2020</div>
+                    </div>
+                </article>
+                <article class="topics-item topics-large-item" data-tag="recipe">
+                    <img class="topics-large-img" src="img/topic-cheesecake.jpg" alt="Cheesecake">
+                    <h3 class="topics-large-heading"><a href="topic.html">Домашний чизкейк</a></h3>
+                    <p class="topics-large-description">Что может быть лучше чизкейка с сезонными ягодами? Только домашний чизкейк!</p>
+                    <div class="topics-large-info">
+                        <div>Теги: <a href="">рецепты</a></div>
+                        <div>24.06.2020</div>
+                    </div>
+                </article>
+            </div>
+            <a class="btn" href="#">Показать еще</a>
+        </section>
+        <section class="about-me container" id="about-me">
+            <h2>Обо мне</h2>
+            <div class="about-me-content">
+                <img class="about-me-photo" src="img/about-me-photo.jpg" alt="my-photo">
+                <div class="about-me-text">
+                    <p>Всем привет! Меня зовут Аня, и это мой личный блог.
+                        Здесь ты найдёшь рассказы о моих путешествиях, снимки
+                        на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+                        что мне инетресно.</p>
+                    <p>Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                        портфолио. Ниже размещены несколько моих лучших
+                        рабочих текстов. Буду рада новым сотрудничествам!</p>
+                    <p>Если вы хотите написать мне — это можно сделать в соцсетях
+                        или через <a class="form-link" href="#mail-me">форму</a>. Всегда приятно услышать обратную связь
+                        от читателей и познакомиться поближе.</p>
+                    <p>Приятного чтения!</p>
+                    <blockquote>Я верю, что каждый раз пробуя новое,
+                        выходящее за зону моего комфорта,
+                        я&nbsp;действительно узнаю настояющую себя.
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio container" id="portfolio">
+            <h2>Портфолио</h2>
+            <div class="portfolio-content">
+                <article class="portfolio-item">
+                    <p class="portfolio-item-source">Блог HTML Academy</p>
+                    <h3 class="portfolio-item-heading">«Как учиться продуктивно»</h3>
+                    <p class="portfolio-item-description">Про основные методы обучения,
+                        которые&nbsp;помогут быстро и надолго запомнить&nbsp;информацию.</p>
+                </article>
+                <article class="portfolio-item">
+                    <p class="portfolio-item-source">Журнал «LNK»</p>
+                    <h3 class="portfolio-item-heading">«Зачем поцели нужны человеку?
+                        И&nbsp;какие они бывают»</h3>
+                    <p class="portfolio-item-description">Поцелуи — повсеместная ежедневная
+                        практика.&nbsp;Но зачем люди целуются? Какие&nbsp;смыслы вкладывают в этот ритуал?
+                        И&nbsp;где&nbsp;корни этой практики?</p>
+                </article>
+                <article class="portfolio-item">
+                    <p class="portfolio-item-source">Журнал «Т — Л»</p>
+                    <h3 class="portfolio-item-heading">«Советы по эффективной удалённой&nbsp;работе»</h3>
+                    <p class="portfolio-item-description">Поделилась лайфхаками, которые помогают
+                        мне&nbsp;работать продуктивно из дома. </p>
+                </article>
+            </div>
+            <a class="btn" href="#">Показать еще</a>
+        </section>
+        <section class="mail-me container-small" id="mail-me">
+            <h2>Написать мне</h2>
+            <form class="mail-me-form" method="GET" action="">
+                <div class="form-field">
+                    <label><span class="form-label">Ваше имя</span>
+                    <input class="form-name" type="text" name="name" required placeholder="Иван Иванов"></label>
+                </div>
+                <div class="form-field">
+                    <label><span class="form-label">Email</span>
+                    <input class="form-mail" type="email" name="mail" required placeholder="google@gmail.com"></label>
+                </div>
+                <div class="form-field">
+                    <label for="message"><span class="form-label">Сообщение</span></label>
+                    <textarea class="form-message" id="message" name="message" placeholder="Напишите здесь ваше сообщение."></textarea>
+                    <div class="form-message-counter">
+                        Длина сообщения должна быть не менее 10&nbsp;символов и не превышать 200 символов.<br>
+                        Использовано символов: <span class="counter message-error">0</span>.
+                    </div>
+                </div>
+                <input type="submit" class="btn submit-btn" value="отправить" disabled>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav>
+            <ul class="footer-nav">
+                <li class="footer-nav-item"><a href="">ВК</a></li>
+                <li class="footer-nav-item"><a href="">Телеграм</a></li>
+                <li class="footer-nav-item"><a href="">Инстаграм</a></li>
+                <li class="footer-nav-item"><a href="">Твиттер</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="form-block.js"></script>
+    <script src="topics.js"></script> 
+</body>
+</html>
