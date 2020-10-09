@@ -166,6 +166,8 @@ h1, h2, h3, .portfolio-item-source, .form-label {
     align-self: center;
     display: inline-block;
     padding: 12px 74px 12px 20px;
+    width: 203px;
+    box-sizing: border-box;
     font-size: 16px;
     line-height: 22px;
     background: url('img/select-arrow.svg') #D7D1C9 no-repeat;
@@ -242,6 +244,11 @@ h1, h2, h3, .portfolio-item-source, .form-label {
     margin-bottom: 8px;
 }
 
+.topics-small-heading a:hover {
+    color: #8F7659;
+    text-decoration: underline;
+}
+
 .topics-small-description {
     font-size: 16px;
     line-height: 26px;
@@ -282,6 +289,11 @@ h1, h2, h3, .portfolio-item-source, .form-label {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 8px;
+}
+
+.topics-large-heading a:hover {
+    color: #D7D1C9;
+    text-decoration: underline;
 }
 
 .topics-large-description {
@@ -541,6 +553,10 @@ h1, h2, h3, .portfolio-item-source, .form-label {
     cursor: pointer;
 }
 
+.like:hover {
+    filter: drop-shadow(0 0 3px);
+}
+
 .likes-counter {
     margin-right: auto;
     margin-left: 14px;
@@ -570,7 +586,10 @@ h1, h2, h3, .portfolio-item-source, .form-label {
     font-size: 36px;
     line-height: 49px;
     font-weight: bold;
-    background: url('img/arrow-to-all-topics.svg') no-repeat center right;
+    background: url('img/arrow-to-all-topics.svg') no-repeat right 60%;
+}
+.all-topics-link:hover {
+    color: #8F7659;
 }
 
 .comments {
@@ -677,6 +696,10 @@ h1, h2, h3, .portfolio-item-source, .form-label {
 
 .added {
     background-position: 0 -50px;
+}
+
+.added:hover {
+    filter: none;
 }
 
 .like-bold {

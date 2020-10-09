@@ -9,7 +9,7 @@ commentForm.onsubmit = function (evt) {
 
     if (commentText.value.length < 10 || commentText.value.length > 200) {
         commentText.classList.add('message-error');
-        error.classList.remove('visually-hidden');
+        error.classList.remove('hidden');
     } else {
         let newComment = document.createElement('p');
         newComment.classList.add('comment-text');
@@ -32,10 +32,12 @@ commentForm.onsubmit = function (evt) {
         commentList.prepend(newAuthor);
         newAuthor.append(newAuthorAvatar);
         newAuthor.append(newAuthorName);
+
+        commentList.scrollTo(0, 0);
     }
 }
 
 commentText.onfocus = function () {
     commentText.classList.remove('message-error');
-    error.classList.add('visually-hidden');
+    error.classList.add('hidden');
 }
